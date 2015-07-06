@@ -881,8 +881,8 @@ WS : [ \t]+;
 
 
 // letters
-fragment LETTER : [a-zA-Z_äöüÄÖÜ];
-fragment LETTERORDIGIT : [a-zA-Z0-9_äöüÄÖÜ];
+fragment LETTER : [a-zA-Z_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½];
+fragment LETTERORDIGIT : [a-zA-Z0-9_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½];
 
 // case insensitive chars
 fragment A:('a'|'A');

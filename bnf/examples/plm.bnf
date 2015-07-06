@@ -1,3 +1,4 @@
+<program> ::= program <identifier> ; <block> . 
 <character>::= <apostrophe> | <non-quote character>
 <apostrophe>::= '
 <non-quote character>::= <letter> | <decimal digit> | $ |
